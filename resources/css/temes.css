@@ -1,0 +1,108 @@
+
+.tab-content p {
+	margin-bottom: 15px; 
+}
+
+.tab-content p.no-margin {
+	margin: 0;
+}
+
+.tab-content ul {
+	padding-left: 20px;
+}
+
+div.dataTables_wrapper div.dataTables_length label, 
+div.dataTables_wrapper div.dataTables_info,
+div.dataTables_wrapper div.dataTables_filter label,
+div.dataTables_processing {
+    text-align: justify;
+    font-family: Arial,Sans-serif;
+    font-size: 16px;
+}
+
+/* -- Geodèsia -- */
+
+.mapVertex {
+	border: 1px solid #C7C4C2;
+	margin: 15px 0;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.mapVertex iframe {
+	position: absolute;
+	/*top: -51px;
+	height: 651px;*/
+	width: 100%;
+	border: 0;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.vertexImg {
+	width: 100px;
+	margin: 15px 0;
+}
+
+.vertexHighlight {
+	font-style: italic;
+}
+
+table#vertex {
+    text-align: justify;
+    font-family: Arial,Sans-serif;
+    font-size: 16px;
+}
+
+table#vertex td {
+	vertical-align: middle;
+}
+
+table#vertex a {
+	color: #000;
+}
+
+/* -- Topografia -- */
+
+table#descarregaTopografia {
+    text-align: justify;
+    font-family: Arial,Sans-serif;
+    font-size: 16px;
+}
+
+table#descarregaTopografia thead th {
+	padding: 0;
+}
+
+table#descarregaTopografia td:first-child td {
+	border-top: 0;
+}
+
+table#descarregaTopografia a {
+	color: #000;
+}
+
+table#descarregaTopografia td {
+	vertical-align: middle;
+}
+
+div#descarrega h4 {
+	font-family: Arial, Sans-serif;
+}
+
+.topografiaSubtitle {
+	font-family: Arial, Sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.DCVseparator {
+	border-top: 3px solid #ddd;
+    margin-top: 17px;
+    padding-top: 13px;
+}

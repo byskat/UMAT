@@ -1,0 +1,8 @@
+ErrorDocument 404 /umat/error.php
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+Options All -Indexes
