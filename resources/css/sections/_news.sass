@@ -1,0 +1,58 @@
+// List (index & news)
+
+.news
+
+.articles
+  tr
+    padding: 10px
+    border-bottom: 1px solid $greyMain
+
+  h2
+    font: 300 $headerText $oswald
+    color: $goldMain
+    margin: 0 0 15px 0
+
+.articleSubtitle
+  font-weight: bold
+
+.articleDate
+  font-family: $oswald
+  text-indent: 1px
+  color: $greyMain
+  margin-right: 1px
+  padding-right: 5px
+  border-right: 1px solid $greyMain
+
+.articleBody
+  display: inline
+  text-align: justify
+
+.articleMore
+  font: 400 16px $arial
+  color: $goldMain
+
+.moreNews
+  width: 100%
+  background-color: rgba(199, 196, 194, 0.3)
+  +border-radius(0 0 4px 4px)
+  font-size: 19px
+  color: $greyMain
+  &:hover
+    color: $goldMain
+    background-color: rgba(199, 196, 194, 0.5)
+
+#llistaNoticiesInici
+  margin-top: 0 !important
+  thead
+    display: none
+
+#llistaNoticiesInici_wrapper .row
+  &:first-child, &:last-child
+    display: none
+
+// Detailed (view)
+
+.noticia
+  margin-bottom: 150px
+  div
+    padding: 8px

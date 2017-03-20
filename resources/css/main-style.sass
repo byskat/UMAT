@@ -1,0 +1,272 @@
+//Temporary DELETE
+
+@import utilities/temporary
+
+// Utilities
+@import utilities/css3-mixins
+
+@import utilities/fonts
+@import utilities/variables
+@import utilities/normalize
+@import utilities/assets
+
+//Sections
+@import sections/nav
+@import sections/news
+
+html
+  +box-sizing(border-box)
+
+*
+  +box-sizing(inherit)
+  &:before, &:after
+    +box-sizing(inherit)
+
+body
+  background-color: #CFC9C5
+  background-image: url('../img/noise.png')
+
+h1, h2, h3, h4
+  font-family: $oswald
+  font-weight: 700
+
+h1
+  font-size: $headerText
+  margin-top: 15px
+
+p
+  text-align: justify
+  font: 400 $bodyText $arial
+
+a
+  color: $goldMain
+  &:hover, &:visited, &:focus
+    color: $goldHover
+
+ul > li
+  text-align: justify
+  font: 200 $bodyText $arial
+
+span
+  &.hz
+    display: block
+    border-top: 1px solid $greyMain
+    margin-top: 10px
+  &.hzb
+    display: block
+    border-top: 1px solid #fff
+
+a.fill-div
+  display: block
+  height: 100%
+  width: 100%
+  text-decoration: none
+  color: initial
+
+.no-margin
+  margin: 0
+
+.no-padding
+  padding: 0
+
+.no-gutter > [class*='col-']
+  padding-right: 0
+  padding-left: 0
+
+.padding-vertical
+  padding-top: 20px
+  padding-bottom: 20px
+
+.minor-text
+  font-size: 14px
+
+/* Bootstrap generic mods */
+
+.carousel-inner > .item >
+  a > img, img
+    width: 100%
+
+.carousel-control
+  &.right, &.left
+    background-image: none
+
+.warp
+  +box-shadow(0, 45px, 100px, rgba(0, 0, 0, 0.2))
+  +border-radius(5px)
+  background-color: #f5f4f3
+  overflow: hidden
+  border: 1px solid #BBB7B3
+
+//Datatables pagination mod
+.pagination 
+  .active
+    a, span
+      &, &:focus, &:hover
+        background-color: $goldMain
+        border-color: $goldMain
+  li 
+    a, span
+      &, &:focus, &:hover
+        color: $goldMain
+        outline-color: $goldMain
+
+/* Logo section */
+
+#logo
+  position: relative
+  background-color: $goldMain
+  img
+    z-index: 1
+  embed
+    position: absolute
+    right: 0
+
+/* Lang section */
+
+#lang
+  font: 300 $smallText $oswald
+  letter-spacing: 0.05em
+  text-transform: uppercase
+  color: $dgreyMain
+
+.langHolder
+  margin: 10px 0
+  display: inline-block
+  width: 100%
+  text-align: right
+  a
+    color: #000
+    &.active
+      text-decoration: underline
+  span
+    color: #fff
+    margin: 0 10px
+
+/*  Header Links */
+
+#headerViews
+  &.homeLocal
+    border-bottom: 4px solid $goldMain
+
+#headerViews h1
+  background-color: rgba(0, 0, 0, 0.5)
+  margin: 0
+  padding: 15px
+  text-transform: uppercase
+  text-align: center
+  color: #fff
+
+#cartografia_tematica
+  background: url(../img/headerViews/cartografia.jpg) no-repeat center center
+  +background-size(cover)
+
+#noticies
+  background: url(../img/headerViews/news.jpg) no-repeat center center
+  +background-size(cover)
+
+/* Content */
+
+#content
+  padding: 20px 5px 0 5px
+
+/* Introduction belongs to temes */
+
+.intro
+  margin-top: 10px
+
+/* Relevant */
+
+#relevant
+  padding: 10px
+  .stylizedImg
+    max-height: 300px
+    margin: 5px
+
+.infoBox
+  position: absolute
+  bottom: 0
+  width: 100%
+  padding: 10px
+  color: #fff
+  background-color: rgba(0, 0, 0, 0.6)
+  font: 400 20px $oswald
+
+/* Contacte / Mapa. new section */
+
+#contact
+
+#formContact
+  margin: 10px 0
+  > div > label
+    font: 400 $bodyText $roboto
+
+/* Contacte secció nova. contact section */
+
+.contactInfo
+  padding: 0
+  list-style: none
+  h3
+    margin-bottom: 5px
+    font-size: 20px
+    color: $goldMain
+
+/* Mapa contacte. contact section */
+
+#map
+  height: 466px
+  width: 100%
+  position: relative
+  iframe
+    position: absolute
+    top: -51px
+    left: 0
+    width: 100%
+    height: 517px
+    border: 0
+
+/* Footer */
+
+.footer
+  padding: 20px 10px
+  p
+    color: $dgreyMain
+    font: 400 $smallText $roboto
+    text-align: center
+    margin: 0
+
+.footerLink
+  color: #fff
+  &:hover, &:visited, &:focus
+    color: #fff
+
+/* ViewTabs. belongs to temes */
+
+.nav-tabs
+  margin-top: 15px
+  border-bottom: 1px solid $greyMain
+  > li.active > a
+    border: 1px solid $greyMain
+    border-bottom-color: transparent
+    &:focus, &:hover
+      border: 1px solid $greyMain
+      border-bottom-color: transparent
+
+.tab-content
+  border-width: 0 1px 1px 1px
+  border-style: solid
+  border-color: $greyMain
+  +border-radius(0 0 4px 4px)
+  margin-bottom: 15px
+  padding: 15px
+  background-color: white
+
+/* Views. idk->search */
+
+.viewImg
+  margin-top: 15px
+
+/* Media query section */
+
+@media (max-width: 1200px)
+  #relevant .stylizedImg
+    height: 200px
