@@ -42,35 +42,6 @@
 			</li>
 		</ul>
 
-		<style type="text/css">
-			.searchNav {
-				margin: 0;
-				padding: 0 5px;
-			}
-
-			.searchNav input {
-				border-top-right-radius: 0;
-				border-bottom-right-radius: 0;
-				border-right: 0;
-			}
-
-			.searchNav .btn-default {
-				display: initial;
-				color: #555;
-				padding: 6px;
-				margin: 5px 0 5px -4px;
-				border-left: 0;
-				border-top-left-radius: 0;
-    			border-bottom-left-radius: 0;
-			}
-
-			.searchNav .btn-default:hover {
-				color: #555;
-				background-color: #fff;
-				border-color: #ccc;
-			}
-		</style>
-
 		<ul class="nav navbar-nav pull-right hidden-xs">
 			<li>
 				<form class="searchNav navbar-form navbar-left" role="search">

@@ -13,7 +13,11 @@
 		</div>
 
 		<div class="col-md-12">
-			<?php require_once("resources/php/includes/news.php"); ?>
+			<h1>Notícies</h1>
+			<div class="news">
+				<table id="llistaNoticiesInici" class="display table articles"></table>
+				<button class="moreNews btn"><i class="fa fa-plus-square" aria-hidden="true"></i></button>
+			</div>
 		</div>
 
 		<div class="clearfix"></div>
@@ -41,33 +45,6 @@
 		<div class="clearfix"></div>
 	</div><!-- END relevant -->
 	
-	<style type="text/css">
-		.placeholder {
-			height: 120px !important;
-			text-align: center;
-		    vertical-align: middle;
-		    line-height: 117px;
-		}
-
-		.bg-img {
-		  width: 100%;
-		  height: 100%;
-		  background: url('/umat/resources/img/mapUmatBlur.jpg') center center no-repeat;
-		  background-size: cover;
-		  
-		  &:before {
-		    content: '';
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
-			opacity: .6; 
-		  }
-		}
-	</style>
-
 	<div id="contact" class="clearfix bg-img placeholder">
 		<a href="contacte.php">
 			<button type="button" class="btn btn-default btn-lg btnContacte">Contacte</button>

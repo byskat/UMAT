@@ -4,7 +4,7 @@
   margin-bottom: 0
   min-height: initial
   background-color: #000
-  border-radius: 0
+  +border-radius(0)
   border: 0
   li
     font-family: $oswald
@@ -29,7 +29,7 @@
     padding: 5px 20px
     margin: 6px 9px
     text-decoration: none
-    color: #C99C3D
+    color: $goldMain
     background-color: white
     font-family: $oswald
     font-weight: 300
@@ -37,12 +37,36 @@
     text-transform: uppercase
     &:hover, &:active
       color: #fff
-      background-color: #C99C3D
+      background-color: $goldMain
+
+/* CP PS */
+
+.searchNav 
+  margin: 0;
+  padding: 0 5px;
+
+  input 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+
+  .btn-default 
+    display: initial;
+    color: #555;
+    padding: 6px;
+    margin: 5px 0 5px -4px;
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    &:hover 
+      color: #555;
+      background-color: #fff;
+      border-color: #ccc;
 
 /* Estil desplegables */
 
 .dropdown-menu
-  background-color: #C99C3D
+  background-color: $goldMain
   padding: 0
   margin: 0
   border: 0
@@ -58,9 +82,7 @@
         background-color: #000
         color: #fff
     .active > a
-      background-color: #000
-      color: #fff
-      &:focus, &:hover
+      &, &:focus, &:hover
         background-color: #000
         color: #fff
 
@@ -69,15 +91,13 @@
 .navbar-header
   .navbar-toggle
     background-color: transparent
-    border-color: rgba(255, 255, 255, 0.5)
+    border-color: rgba(#fff, 0.5)
   .icon-bar
-    background-color: rgba(255, 255, 255, 0.8)
+    background-color: rgba(#fff, 0.8)
 
 .nav .open > a
-  background-color: #C99C3D
-  border-color: #000
-  &:focus, &:hover
-    background-color: #C99C3D
+  &, &:focus, &:hover
+    background-color: $goldMain
     border-color: #000
 
 /* Desplega submenus amb :hover en comptes de click */
@@ -111,7 +131,7 @@
       &:before
         border-bottom: 7px solid transparent
         border-left: none
-        border-right: 7px solid rgba(0, 0, 0, 0.2)
+        border-right: 7px solid rgba(#000, 0.2)
         border-top: 7px solid transparent
         left: -7px
         top: 10px

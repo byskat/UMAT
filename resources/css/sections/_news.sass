@@ -1,7 +1,5 @@
 // List (index & news)
 
-.news
-
 .articles
   tr
     padding: 10px
@@ -33,13 +31,13 @@
 
 .moreNews
   width: 100%
-  background-color: rgba(199, 196, 194, 0.3)
+  background-color: rgba(#c7c4c2, 0.3)
   +border-radius(0 0 4px 4px)
   font-size: 19px
   color: $greyMain
   &:hover
     color: $goldMain
-    background-color: rgba(199, 196, 194, 0.5)
+    background-color: rgba(#c7c4c2, 0.5)
 
 #llistaNoticiesInici
   margin-top: 0 !important
@@ -49,6 +47,13 @@
 #llistaNoticiesInici_wrapper .row
   &:first-child, &:last-child
     display: none
+
+#llistaNoticies, #llistaNoticiesInici
+  th
+    display: none
+  td:nth-child(2)
+    vertical-align: middle
+    text-align: center
 
 // Detailed (view)
 

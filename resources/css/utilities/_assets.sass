@@ -4,13 +4,12 @@
 .btn
   font-family: $arial
   outline: none !important
-  &:active, &:hover
+  border-radius: 3px
+  &:focus, &:visited, &:focus, &:active
     outline: none !important
 
-.btnContacte
-  border-radius: 3px
-  width: 200px
-  font-family: $oswald
+.btnCustom
+  @extend .btn
   color: #fff
   background-color: $goldMain
   border: 0
@@ -21,23 +20,34 @@
     background-color: $goldFocus
     color: #fff
 
+.btnContacte
+  @extend .btnCustom
+  border-radius: 3px
+  width: 200px
+  font-family: $oswald
+
+.btnSend
+  @extend .btnCustom
+  width: 100%
+  padding: 6px 20px
+
 .formControl
   display: block
   width: 100%
   height: 34px
   padding: 6px 12px
-  font: 400 14px $roboto
+  font: 400 $smallText $roboto
   line-height: 1.42857143
   color: #555
   background-color: #fff
   background-image: none
   border: 1px solid #ccc
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075)
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+  +box-shadow(inset 0 1px 1px rgba(#000, 0.075))
+  +transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s)
   &:focus, &:visited, &:focus, &:active
     border-color: $goldMain
     outline: 0
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(201, 156, 61, 0.6)
+    +box-shadow(inset 0 1px 1px rgba(#000, 0.075), 0 0 8px rgba($goldMain, 0.6))
   textarea
     max-width: 100%
     max-height: 100px
@@ -45,50 +55,7 @@
 
 .form-group
   margin-bottom: 10px
-
-.btnSend
-  width: 100%
   color: #fff
-  border: 0
-  padding: 6px 20px
-  background-color: $goldMain
-  margin: 5px 0
-  &:hover
-    background-color: $goldHover
-    color: #fff
-  &:focus, &:visited
-    background-color: $goldFocus
-    color: #fff
-
-/* Button Box */
-
-.buttonBox
-  margin: 10px 0 5px 0
-  q
-    appearance: button
-    text-decoration: none
-    color: initial
-  h4
-    /*font-family:*/
-  .btn
-    position: relative
-    margin: 5px
-    padding: 10px 15px 10px 45px
-    border: 1px solid rgba(255, 255, 255, 0.3)
-    text-shadow: 0px 0px 3px #000
-    color: #fff
-    font: 700 16px $roboto
-    &:hover
-      background-color: rgba(0, 0, 0, 0.3)
-    i
-      position: absolute
-      font-size: 16px
-      left: 0
-      top: 0
-      padding: 13px 0
-      width: 30px
-      background-color: rgba(255, 255, 255, 0.3)
-      color: #fff
 
 .stylizedImg
   overflow: hidden
