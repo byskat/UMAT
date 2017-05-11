@@ -3,19 +3,19 @@
 ## Estructura
 
     .
-    +-- arxiu       	# Vistes de l'arxiu
-    +-- resources	# Tots els recursos del projecte
+    +-- arxiu           # Vistes de l'arxiu
+    +-- resources       # Tots els recursos del projecte
     ¦   +-- css           # Fitxers d'estil (tant css com sass)
     ¦   +-- fonts         # Fonts utilitzades en local
     ¦   +-- img           # Imatges del projecte
     ¦   +-- js             
     ¦   +-- php           
-    ¦	+-- swf		  # Logos amb flash
+    ¦   +-- swf           # Logos amb flash
     ¦   +-- vendor        # Totes les dependències
-    +-- temes		# Vistes dels temes
-    +-- index.php	# Pàgina principal del web
-    +-- error.php 	# Pàgina de redirecció en cas de error (404)
-    +-- contacte.php	# Vista de contacte
+    +-- temes           # Vistes dels temes
+    +-- index.php       # Pàgina principal del web
+    +-- error.php       # Pàgina de redirecció en cas de error (404)
+    +-- contacte.php    # Vista de contacte
 
 Info del [Javascript](#javascript), [PHP](#php) i [Dependències](#desenvolupat-amb)
 
