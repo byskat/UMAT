@@ -3,19 +3,19 @@
 ## Estructura
 
     .
-    +-- arxiu       	# Vistes
-    +-- resources		# Tots els recursos del projecte
+    +-- arxiu       	# Vistes de l'arxiu
+    +-- resources	# Tots els recursos del projecte
     ¦   +-- css           # Fitxers d'estil (tant css com sass)
     ¦   +-- fonts         # Fonts utilitzades en local
-    ¦   +-- img           # Imatges del projecte (en desús)
-    ¦   +-- js            # 
-    ¦   +-- php           # 
-	¦	+-- swf			  #
+    ¦   +-- img           # Imatges del projecte
+    ¦   +-- js             
+    ¦   +-- php           
+    ¦	+-- swf		  # Logos amb flash
     ¦   +-- vendor        # Totes les dependències
-    +-- temes			# 
-    +-- index.php		# Pàgina principal del web
-    +-- error.php 		# 
-	+-- contacte.php	# 
+    +-- temes		# Vistes dels temes
+    +-- index.php	# Pàgina principal del web
+    +-- error.php 	# Pàgina de redirecció en cas de error (404)
+    +-- contacte.php	# Vista de contacte
 
 Info del [Javascript](#javascript), [PHP](#php) i [Dependències](#desenvolupat-amb)
 
@@ -24,22 +24,20 @@ Info del [Javascript](#javascript), [PHP](#php) i [Dependències](#desenvolupat-
 Fotos, tant index com seccions (stock o origen UMAT).
 Cercador i traducció de les pàgines pendent (cercador de tercers i autotranslate).
 
-(Inici) Imatges i enllaços a les seccions correctes (les quatre imatges superiors són links a opendata, portal intern, qlik i observatori)
-
-(Temes) Cartografia Temàtica: Poder gestionar PDF's (actualment datables + mock data), gestionar seccions i subseccions (a concretar)
-(Temes) Geodèsia: Carregar directament de la base de dades de vèrtex (actualment datables + mock data)
-(Temes) Serveis Web: Concretar per part UMAT
-(Temes) Topografia: Poder gestionar PDF's (actualment datables + mock data)
-(Temes) Eines: Concretar per part UMAT
-(Temes) Falta més informació per les seccions així com fotos específiques per a cada secció que s'han d'anar concretant.
-
-(Tràmits) Concretar per part UMAT
-
-(Arxiu) Notícies: Carregar notícies de la base de dades correcte (actualment datatables + mock data)
-(Arxiu) Documentació i Ajuda: Concretar per part UMAT
-(Arxiu) Enllaços: Concretar per part UMAT
-
-(Contacte) Relacionar formulari de contacte
+<ul>
+<li>(Inici) Imatges i enllaços a les seccions correctes (les quatre imatges superiors són links a opendata, portal intern, qlik i observatori)</li>
+<li>(Temes) Cartografia Temàtica: Poder gestionar PDF's (actualment datables + mock data), gestionar seccions i subseccions (a concretar)</li>
+<li>(Temes) Geodèsia: Carregar directament de la base de dades de vèrtex (actualment datables + mock data)</li>
+<li>(Temes) Serveis Web: Concretar per part UMAT</li>
+<li>(Temes) Topografia: Poder gestionar PDF's (actualment datables + mock data)</li>
+<li>(Temes) Eines: Concretar per part UMAT</li>
+<li>(Temes) Falta més informació per les seccions així com fotos específiques per a cada secció que s'han d'anar concretant.</li>
+<li>(Tràmits) Concretar per part UMAT</li>
+<li>(Arxiu) Notícies: Carregar notícies de la base de dades correcte (actualment datatables + mock data)</li>
+<li>(Arxiu) Documentació i Ajuda: Concretar per part UMAT</li>
+<li>(Arxiu) Enllaços: Concretar per part UMAT</li>
+<li>(Contacte) Relacionar formulari de contacte</li>
+</ul>
 
 Una part important dels continguts encara no està concretat (així com els productes cartogràfics disponibles)
 
