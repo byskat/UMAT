@@ -16,13 +16,25 @@
 				<li class="dropdown">
 					<a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Temes<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="/umat/temes/cartografia_tematica.php">Cartografia Temàtica</a></li>
-						<li><a href="/umat/temes/geodesia.php">Geodèsia</a></li>
-						<li><a href="/umat/temes/imatge_aerea.php">Imatge Aèria</a></li>
-						<li><a href="/umat/temes/serveis_web.php">Serveis Web</a></li>
-						<li><a href="/umat/temes/topografia.php">Topografia</a></li>
+						<li>
+							<a href="/umat/temes/cartografia_tematica.php">Cartografia Temàtica</a>
+						</li>
+						<li>
+							<a href="/umat/temes/geodesia.php">Geodèsia</a>
+						</li>
+						<li>
+							<a href="http://terra2.girona.cat/lizardtech/iserv/browse?" target="_blank">Imatge Aèria</a>
+						</li>
+						<li>
+							<a href="/umat/temes/serveis_web.php">Serveis Web</a>
+						</li>
+						<li>
+							<a href="/umat/temes/topografia.php">Topografia</a>
+						</li>
 						<span class="hzb"></span>
-						<li><a href="/umat/temes/eines.php">Eines</a></li></li>
+						<li>
+							<a href="/umat/temes/eines.php">Eines</a>
+						</li>
 					</ul>
 				</li>
 				<li class="dropdown">
@@ -31,9 +43,15 @@
 				<li class="dropdown">
 					<a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Arxiu<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="/umat/arxiu/noticies.php">Noticies</a></li>
-						<li><a href="/umat/arxiu/documentacio_i_ajuda.php">Documentació i Ajuda</a></li>
-						<li><a href="/umat/arxiu/enllacos.php">Enllaços</a></li>
+						<li>
+							<a href="/umat/arxiu/noticies.php">Noticies</a>
+						</li>
+						<li>
+							<a href="/umat/arxiu/documentacio_i_ajuda.php">Documentació i Ajuda</a>
+						</li>
+						<li>
+							<a href="/umat/arxiu/enllacos.php">Enllaços</a>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -48,10 +66,10 @@
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Cerca...">
 					</div>
-					<!-- -->
-					<button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+					<button type="submit" class="btn btn-default">
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</button>
 				</form>
-				<!--<button class="btn pull-right" type="button">Sol·licituds</button>-->
 			</li>
 		</ul>
 	</div>
