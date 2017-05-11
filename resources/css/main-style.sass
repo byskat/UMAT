@@ -97,7 +97,7 @@ a.fill-div
   overflow: hidden
   border: 1px solid #BBB7B3
 
-/* Datatables pagination modification */
+//Datatables pagination mod
 .pagination 
   .active
     a, span
@@ -165,71 +165,10 @@ a.fill-div
   background: url(../img/headerViews/news.jpg) no-repeat center center
   +background-size(cover)
 
-/* Search bar */
-
-.searcher
-  padding: 20px
-  background-color: #DAD6D3
-  .mapSection
-    margin: 0 15px
-    overflow: hidden
-    background: rgba(#000,.1)
-    +box-shadow(0, 1px, 1px, rgba(#000, .4), inset)
-    border-radius: 2px 2px 0 0
-    border-bottom: 0
-    .mapPanel 
-      overflow: hidden
-      height: 0
-      border-width: 0 1px
-      border-style: solid
-      border-color: transparent
-      iframe 
-        border: 0
-        height: -webkit-calc(100% + 51px)
-        height:    -moz-calc(100% + 51px)
-        height:         calc(100% + 51px)
-        margin-top: -51px
-  
-  .searchSection
-    border-radius: 2px
-    background: rgba(0,0,0,.1)
-    +box-shadow(0, 1px, 1px, rgba(#000,.4), inset)
-    .searchPanel
-      padding: 15px
-      .form-control
-        font-family: $oswald
-        border-right: 0
-        border-left: 0
-        padding-left: 0 
-        border-color: $lgreyMain
-        &:focus
-          +box-shadow(0, 0, 0)
-      .input-group-addon
-        background-color: #fff
-        button
-          border: 0
-          background: transparent
-          &:focus
-            outline: 0
-        button#toggleMap
-          padding: 0
-
 /* Content */
 
 #content
   padding: 20px 5px 0 5px
-
-/* Shortcuts */
-
-.shortcutsContainer
-  padding: 0 5px   
-  >div
-    padding: 0 10px
-  .lead
-    margin-bottom: 0
-    font-family: $oswald
-    .leadLink 
-      float: right
 
 /* Introduction belongs to temes */
 
@@ -261,7 +200,6 @@ a.fill-div
   margin: 10px 0
   > div > label
     font: 400 $bodyText $roboto
-    color: #000
 
 /* Contacte secció nova. contact section */
 
@@ -292,12 +230,15 @@ a.fill-div
   height: 100%
   background: url('/umat/resources/img/mapUmatBlur.jpg') center center no-repeat
   background-size: cover
+  
+
 
 /* Footer */
 
 .footer
   padding: 20px 10px
   p
+    color: $dgreyMain
     font: 400 $smallText $roboto
     text-align: center
     margin: 0

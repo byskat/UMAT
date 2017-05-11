@@ -561,7 +561,6 @@ th {
   transition: height ease-in-out 0.3s; }
   .mapVertex iframe {
     position: absolute;
-    height: 100%;
     width: 100%;
     border: 0;
     -webkit-transition: height ease-in-out 0.3s;

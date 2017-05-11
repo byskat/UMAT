@@ -8,6 +8,7 @@ $sql_details = array(
     'host' => 'localhost'
 );
 
+// PDO
 $dsn = 'mysql:dbname='.$sql_details['db'].';host='.$sql_details['host'];
 $user = $sql_details['user'];
 $password = $sql_details['pass'];
